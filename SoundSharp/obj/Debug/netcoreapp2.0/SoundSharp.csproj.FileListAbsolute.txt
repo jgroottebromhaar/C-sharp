@@ -1,0 +1,11 @@
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.deps.json
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.runtimeconfig.json
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.runtimeconfig.dev.json
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.dll
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.pdb
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.csprojResolveAssemblyReference.cache
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.csproj.CoreCompileInputs.cache
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.AssemblyInfoInputs.cache
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.AssemblyInfo.cs
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.dll
+C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.pdb
