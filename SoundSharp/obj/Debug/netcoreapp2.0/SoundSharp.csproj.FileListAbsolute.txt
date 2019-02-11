@@ -9,3 +9,14 @@ C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundS
 C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.AssemblyInfo.cs
 C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.dll
 C:\Users\jiri_\source\repos\SoundSharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.pdb
+D:\sourcetree_stuff\C-sharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.deps.json
+D:\sourcetree_stuff\C-sharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.runtimeconfig.json
+D:\sourcetree_stuff\C-sharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.runtimeconfig.dev.json
+D:\sourcetree_stuff\C-sharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.dll
+D:\sourcetree_stuff\C-sharp\SoundSharp\bin\Debug\netcoreapp2.0\SoundSharp.pdb
+D:\sourcetree_stuff\C-sharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.csprojResolveAssemblyReference.cache
+D:\sourcetree_stuff\C-sharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.csproj.CoreCompileInputs.cache
+D:\sourcetree_stuff\C-sharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.AssemblyInfoInputs.cache
+D:\sourcetree_stuff\C-sharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.AssemblyInfo.cs
+D:\sourcetree_stuff\C-sharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.dll
+D:\sourcetree_stuff\C-sharp\SoundSharp\obj\Debug\netcoreapp2.0\SoundSharp.pdb

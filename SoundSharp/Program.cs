@@ -6,7 +6,11 @@ namespace SoundSharp
     {
         static void Main(string[] args)
         {
-           
+            string nameString;
+            Console.WriteLine("Username");
+            nameString = Console.ReadLine();
+            Console.WriteLine("Welkom bij SoundSharp " + nameString);
+            Console.ReadLine();
         }
     }
 }

@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\sourcetree_stuff\\SoundSharp\\SoundSharp\\SoundSharp.csproj",
+      "projectUniqueName": "D:\\sourcetree_stuff\\C-sharp\\SoundSharp\\SoundSharp.csproj",
       "projectName": "SoundSharp",
-      "projectPath": "D:\\sourcetree_stuff\\SoundSharp\\SoundSharp\\SoundSharp.csproj",
+      "projectPath": "D:\\sourcetree_stuff\\C-sharp\\SoundSharp\\SoundSharp.csproj",
       "packagesPath": "C:\\Users\\jiri_\\.nuget\\packages\\",
-      "outputPath": "D:\\sourcetree_stuff\\SoundSharp\\SoundSharp\\obj\\",
+      "outputPath": "D:\\sourcetree_stuff\\C-sharp\\SoundSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
