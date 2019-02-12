@@ -18,6 +18,7 @@ namespace SoundSharp
 
         static void Login(string password, string username)
         {
+            // Password checker
             string pass = "SHARPSOUND";
 
             switch (password == pass)
