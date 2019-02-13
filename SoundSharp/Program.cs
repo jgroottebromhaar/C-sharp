@@ -6,33 +6,44 @@ namespace SoundSharp
     {
         static void Main(string[] args)
         {
-            string nameString;
-            string pass;
-            Console.WriteLine("Username");
-            nameString = Console.ReadLine();
-            Console.WriteLine("Welkom bij SoundSharp " + nameString);
-            Console.WriteLine("Password");
-            pass = Console.ReadLine();
-            Login(pass, nameString);
+            Login();
         }
 
-        static void Login(string password, string username)
+        static void Login()
         {
-            string pass = "SHARPSOUND";
+            string nameString;
+            string password;
+            Console.WriteLine("Username");
+            nameString = Console.ReadLine();
+            Console.WriteLine("Password");
+            
 
-            switch (password == pass)
+            // Password checker
+            string pass = "SHARPSOUND";
+            string name = nameString;
+            int tries = 1;
+
+            do
             {
-                case true:
-                    Console.WriteLine("Correct password");
-                    break;
-                case false:
-                    Console.WriteLine("Wrong password dickhead");
-                    break;
-                default:
-                    Console.WriteLine("Piss off mate!");
-                    break;
-            }
-            Console.ReadLine();
+                password = Console.ReadLine();
+                tries++;
+                switch (password == pass)
+                {
+                    case true:
+                        Console.WriteLine("Correct password");
+                        Console.WriteLine("Welkom bij SoundSharp " + name);
+                        break;
+                    case false:
+                        if (tries == 2)
+                        {
+                            Console.WriteLine("Wrong password poging 2 van 3");
+                        } else if (tries == 3)
+                        {
+                            Console.WriteLine("Wrong password LET OP: Laatste poging!");
+                        }
+                        break;
+                }
+            } while (tries != 4);
         }
     }
 }
