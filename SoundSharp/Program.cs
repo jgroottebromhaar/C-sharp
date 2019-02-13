@@ -6,23 +6,27 @@ namespace SoundSharp
     {
         static void Main(string[] args)
         {
+            Login();
+            Console.ReadLine();
+        }
+
+        static void Login()
+        {
             string nameString;
-            string pass;
+            string password;
             Console.WriteLine("Username");
             nameString = Console.ReadLine();
             Console.WriteLine("Password");
-            pass = Console.ReadLine();
-            Login(pass, nameString);
-        }
+            
 
-        static void Login(string password, string username)
-        {
             // Password checker
             string pass = "SHARPSOUND";
-            string name = username;
-            int tries = 1;
+            string name = nameString;
+            int tries = 2;
 
-            while (tries < 3) {
+            do
+            {
+                password = Console.ReadLine();
                 switch (password == pass)
                 {
                     case true:
@@ -32,14 +36,15 @@ namespace SoundSharp
                         break;
                     case false:
                         Console.WriteLine("Wrong password");
-                        password = Console.ReadLine();
+                        //schaap
                         break;
                     default:
                         Console.WriteLine("Piss off mate!");
                         break;
                 }
                 tries++;
-            }
+            } while (tries < 4);
+            Console.ReadLine();
         }
     }
 }
