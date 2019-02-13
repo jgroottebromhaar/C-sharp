@@ -7,7 +7,6 @@ namespace SoundSharp
         static void Main(string[] args)
         {
             Login();
-            Console.ReadLine();
         }
 
         static void Login()
@@ -22,29 +21,29 @@ namespace SoundSharp
             // Password checker
             string pass = "SHARPSOUND";
             string name = nameString;
-            int tries = 2;
+            int tries = 1;
 
             do
             {
                 password = Console.ReadLine();
+                tries++;
                 switch (password == pass)
                 {
                     case true:
                         Console.WriteLine("Correct password");
                         Console.WriteLine("Welkom bij SoundSharp " + name);
-                        Console.ReadLine();
                         break;
                     case false:
-                        Console.WriteLine("Wrong password");
-                        //schaap
-                        break;
-                    default:
-                        Console.WriteLine("Piss off mate!");
+                        if (tries == 2)
+                        {
+                            Console.WriteLine("Wrong password poging 2 van 3");
+                        } else if (tries == 3)
+                        {
+                            Console.WriteLine("Wrong password LET OP: Laatste poging!");
+                        }
                         break;
                 }
-                tries++;
-            } while (tries < 4);
-            Console.ReadLine();
+            } while (tries != 4);
         }
     }
 }
