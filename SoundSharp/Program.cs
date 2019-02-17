@@ -33,7 +33,6 @@ namespace SoundSharp
                     Console.Clear();
                     Console.WriteLine("Correct password");
                     Console.WriteLine("Welkom bij SoundSharp " + name);
-                    Console.Clear();
                     showMenu();
                     break;
                 } else if (tries == 2)
@@ -59,9 +58,8 @@ namespace SoundSharp
                 "5. -",
                 "6. -",
                 "7. -",
-                "8. -",
+                "8. Terug naar hoofdmenu",
                 "9. Exit" };
-            Console.WriteLine();
             foreach (string line in lines)
                 Console.WriteLine(line);
 
@@ -76,36 +74,30 @@ namespace SoundSharp
             {
             case ConsoleKey.D1:
                 Console.Clear();
-                Console.WriteLine("1 WAS PRESSED");
+                Console.WriteLine("Gekozen actie: 1. Overzicht MP3 spelers");
                 break;
             case ConsoleKey.D2:
                 Console.Clear();
-                Console.WriteLine();
                 Console.WriteLine("2 WAS PRESSED");
                 break;
             case ConsoleKey.D3:
                 Console.Clear();
-                Console.WriteLine();
                 Console.WriteLine("3 WAS PRESSED");
                 break;
             case ConsoleKey.D4:
                 Console.Clear();
-                Console.WriteLine();
                 Console.WriteLine("4 WAS PRESSED");
                 break;
             case ConsoleKey.D5:
                 Console.Clear();
-                Console.WriteLine();
                 Console.WriteLine("5 WAS PRESSED");
                 break;
             case ConsoleKey.D6:
                 Console.Clear();
-                Console.WriteLine();
                 Console.WriteLine("6 WAS PRESSED");
                 break;
             case ConsoleKey.D7:
                 Console.Clear();
-                Console.WriteLine();
                 Console.WriteLine("7 WAS PRESSED");
                 break;
             case ConsoleKey.D8:
